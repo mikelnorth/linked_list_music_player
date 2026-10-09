@@ -1,0 +1,9 @@
+{
+  "name": "linked_list_music_player",
+  "version": "1.0.0",
+  "description": "A music player UI driven by a hand-written doubly linked list.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
