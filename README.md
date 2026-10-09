@@ -6,13 +6,26 @@ the text at the top always shows the song under the cursor.
 
 Plain HTML, CSS and JavaScript. No frameworks, no build step, no dependencies.
 
-## Run it
+```
+starter/    follow along in class: HTML and CSS done, JavaScript has numbered TODOs
+solution/   the finished version
+```
 
-1. Clone or download this repo.
-2. Open `index.html` in a browser (double-click it, or use the VS Code
+## Students: how to follow along
+
+1. Download this repo (green **Code** button, **Download ZIP**) or `git clone` it.
+2. Open `starter/index.html` in your browser (double-click it, or use the VS Code
    *Live Server* extension so the page refreshes on save).
+3. Open `starter/linked-list.js` and follow the numbered steps in the comments.
+   After each step: save, refresh, and test in the DevTools console.
+4. Then open `starter/app.js` and wire the buttons.
+5. Run `node --test` inside the `starter` folder any time. The tests fail until
+   the data structure is finished, then turn green.
 
-Buttons:
+When it works, copy your `starter` folder into a new repo named
+`linked_list_music_player`, push it to GitHub, and submit the URL.
+
+## Buttons
 
 | Button | What it does |
 | --- | --- |
@@ -23,7 +36,7 @@ Buttons:
 Open the DevTools console and try `playlist.moveNext()`, `playlist.getCurrent()`
 and `playlist.toArray()`. The list is exposed as `window.playlist`.
 
-## Files
+## Files (same in both folders)
 
 ```
 index.html           the page: a text display, three buttons, a playlist strip
@@ -53,6 +66,7 @@ linked-list.test.js  tests for the data structure, run with `node --test`
 ## Tests
 
 ```
+cd solution   # or starter
 node --test
 ```
 
